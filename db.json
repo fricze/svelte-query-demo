@@ -1,0 +1,66 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "apps": [
+    {
+      "name": "app 1",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "App 2"
+    },
+    {
+      "name": "app 3",
+      "id": 3
+    },
+    {
+      "name": "app 4",
+      "id": 4
+    },
+    {
+      "name": "new name",
+      "id": 5
+    }
+  ],
+  "appsDetails": [
+    {
+      "id": 1,
+      "author": "Stefan",
+      "comment": "custom comment"
+    },
+    {
+      "id": 2,
+      "author": "Maria",
+      "comment": "very nice comment"
+    },
+    {
+      "id": 3,
+      "author": "Jonathan"
+    },
+    {
+      "id": 4,
+      "author": "Zachary"
+    },
+    {
+      "author": "new authro",
+      "id": 5,
+      "comment": "new comment"
+    }
+  ]
+}
