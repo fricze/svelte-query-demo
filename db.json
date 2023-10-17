@@ -32,18 +32,22 @@
     {
       "name": "app 4",
       "id": 4
+    },
+    {
+      "name": "app 5",
+      "id": 5
     }
   ],
   "appsDetails": [
     {
       "id": 1,
       "author": "Stefan",
-      "comment": "custom comment"
+      "comment": "mutate comment"
     },
     {
       "id": 2,
       "author": "Maria",
-      "comment": "very nice comment"
+      "comment": "nice comment"
     },
     {
       "id": 3,
@@ -52,6 +56,11 @@
     {
       "id": 4,
       "author": "Zachary"
+    },
+    {
+      "author": "Jane Fonda",
+      "id": 5,
+      "comment": "comment about Jane's app"
     }
   ]
 }
