@@ -1,12 +1,11 @@
 <script lang="ts">
-	import type { FullApp } from './types';
 	import Posts from './AppsView.svelte';
 	import { AppsQueries } from './AppsQueries';
 
 	const { appsQuery, appsDetailsQuery, addCommentMutation, addAppMutation } = AppsQueries();
 
-	$: appsList = $appsQuery.data || [];
-	$: appsDetails = $appsDetailsQuery.data as FullApp[];
+	$: appsList = $appsQuery.data;
+	$: appsDetails = $appsDetailsQuery.data || [];
 	$: appsDetailsQueryStatus = $appsDetailsQuery.status;
 </script>
 

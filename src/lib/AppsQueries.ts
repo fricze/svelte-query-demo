@@ -8,7 +8,8 @@ export const AppsQueries = () => {
 
     const appsQuery = createQuery<App[], Error>({
 		queryKey: ['apps'],
-		queryFn: () => getApps()
+		queryFn: () => getApps(),
+		initialData: [],
 	});
 
     // Derived queries created based on example from docs: https://tanstack.com/query/latest/docs/svelte/reactivity
@@ -25,7 +26,8 @@ export const AppsQueries = () => {
 		derived(appsQuery, ($apps) => ({
 			queryKey: ['app-details'],
 			queryFn: () => getAppsDetails($apps.data || []),
-			enabled: $apps.isSuccess && !$apps.isFetching
+			enabled: $apps.isSuccess && !$apps.isFetching,
+			initialData: [],
 		}))
 	);
 

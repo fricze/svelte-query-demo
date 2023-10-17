@@ -33,13 +33,15 @@
 		{#if appsDetailsQueryStatus === 'success'}
 			<ul>
 				{#each appsDetails as app}
-					<article>
-						<h1>App: {app.name}</h1>
-						<p>Author: {app.author}</p>
-						{#if app.comment}
-							<p>Comment: {app.comment}</p>
-						{/if}
-					</article>
+					<li>
+						<article>
+							<h1>App: {app.name}</h1>
+							<p>Author: {app.author}</p>
+							{#if app.comment}
+								<p>Comment: {app.comment}</p>
+							{/if}
+						</article>
+					</li>
 				{/each}
 			</ul>
 		{/if}
