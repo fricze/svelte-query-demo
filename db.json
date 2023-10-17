@@ -32,10 +32,6 @@
     {
       "name": "app 4",
       "id": 4
-    },
-    {
-      "name": "new name",
-      "id": 5
     }
   ],
   "appsDetails": [
@@ -56,11 +52,6 @@
     {
       "id": 4,
       "author": "Zachary"
-    },
-    {
-      "author": "new authro",
-      "id": 5,
-      "comment": "new comment"
     }
   ]
 }

@@ -47,15 +47,6 @@
 </div>
 
 <style>
-	article {
-		text-align: left;
-	}
-	a {
-		display: block;
-		font-size: 1.5rem;
-		margin-bottom: 1rem;
-	}
-
 	.apps-view {
 		display: flex;
 		gap: 40px;
