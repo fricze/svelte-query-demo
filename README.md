@@ -2,7 +2,7 @@
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Install dependencies with `npm install` (or `pnpm install` or `yarn`). Start a development server with:
 
 ```bash
 # Run local json-server and frontend Svelte app with one command
